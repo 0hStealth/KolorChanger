@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kolor Changer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://unpkg.com/css.gg@2.0.0/icons/css/copy.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Have Fun With It!</h1>
+    <div class="button-container">
+      <button id="changeColorButton" aria-label="Change Background Color">Change</button>
+      <button id="copyHexCodeButton" aria-label="Copy Hex Code">
+        <span class="gg-copy"></span> Copy Hex Code
+      </button>
+    </div>
+    <p id="colorHexCode" aria-live="polite">Color Hex Code: #FFFFFF</p>
+    <div id="colorPalette"></div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tinycolor/1.4.1/tinycolor.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
